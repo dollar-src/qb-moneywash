@@ -35,7 +35,7 @@ exports['qb-target']:AddBoxZone("blackmoney", Config.Coords, 4.0, 1.0, {
             event = "ai-black:input",
             icon = "fas fa-dollar-sign",
             label = "Wash Money",
-            job = "emlak"
+            job = Config.Job
         },
     },
     distance = 2.5
