@@ -16,10 +16,10 @@ local money = tonumber(itemAmount)
         TriggerClientEvent('QBCore:Notify', src, 'Entered Value is less than 0', 'error')
 
 
-    elseif tonumber == nil then
+    elseif BlackItemPlayer == nil then
     TriggerClientEvent('QBCore:Notify', src, 'You dont have Black Money', 'error')
 
-elseif tonumber.amount < money then
+elseif BlackItemPlayer.amount < money then
     TriggerClientEvent('QBCore:Notify', src, 'You dont have Black Money', 'error')
 
     else
